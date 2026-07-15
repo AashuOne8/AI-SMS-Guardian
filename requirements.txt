@@ -1,0 +1,10 @@
+streamlit
+torch
+transformers
+groq
+python-dotenv
+reportlab
+pandas
+plotly
+huggingface_hub
+safetensors
