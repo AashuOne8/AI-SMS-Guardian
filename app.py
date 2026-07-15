@@ -16,8 +16,10 @@ from risk_analysis import (
 # -----------------------------
 # Load Model
 # -----------------------------
-model = AutoModelForSequenceClassification.from_pretrained("spam_model")
-tokenizer = AutoTokenizer.from_pretrained("spam_model")
+MODEL_NAME = "AashuOne8/ai-sms-guardian-model"
+
+model = AutoModelForSequenceClassification.from_pretrained(MODEL_NAME)
+tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 
 # -----------------------------
 # Page Config
